@@ -1,0 +1,112 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.header {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  margin-top: 0;
+  margin-right: 0;
+  background-color: white;
+  background-image: url("./assets/smileimage.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-bottom: 4px solid rgb(119, 129, 211);
+
+}
+
+.header:hover {
+  box-shadow: 0px 4px 3px 0px gray;
+}
+ 
+
+.business-details {
+  margin-top: 10px;
+  margin-bottom: 0;
+  max-height: 20%;
+}
+.business-details-company-logo {
+  width: 40px;
+  height: 40px;
+}
+.business-details > h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight:800;
+  font-size: 20px;
+}
+.business-details > b {
+  font-weight: 600;
+  font-size: medium;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.business-details > p {
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom:0;
+}
+
+.business-description {
+  margin-top: 18px;
+  margin-bottom: 10px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 450;
+  font-size: 12px;
+  padding: 30px;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: justify;
+  color: gray;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 0 0 0;
+
+}
+
+.contact-details-logo {
+  margin: 0 0 0 10px;
+  align-items: left;
+  margin-left: 5px;
+  width: 1.5px;
+  height: 1.5px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.contact-text {
+  font-weight: 300;
+  font-size: 9px;
+  margin-left: 20px;
+}
+
+.footer {
+  margin-top: auto;
+  margin-bottom: 0;
+  padding: 0;
+  width: 100%;
+  height: 30px;
+  background-color: rgb(187, 210, 226);
+
+}
+
+
+
+.card {
+  padding: 2em;
+}
+
